@@ -24,7 +24,7 @@
   clear: right;
   width: 94%;
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto;
   justify-content: center;
   gap: 90px 20px;
   margin-left: 100px;
@@ -50,4 +50,23 @@
 }
 .textwrapper{
   color: red;
+}
+
+@media only screen and (min-width: 600px){
+  .main_bar{
+    display: grid;
+  grid-template-columns: auto auto;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .main_bar{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  }
+}
+@media only screen and (min-width: 1140px){
+  .main_bar{
+    display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  }
 }

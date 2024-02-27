@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-.main-header{
+.main-header {
   font-weight: 500;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(238, 238, 238);
@@ -19,7 +20,7 @@
   width: 100%;
 }
 /* design for search input */
-.main-header .search input{
+.main-header .search input {
   width: 34rem;
   font-size: 1rem;
   border: 1px solid #c4bfbf;
@@ -28,14 +29,14 @@
   background-color: #f3f3f3;
   outline: none;
 }
-.main-header .search input::placeholder{
+.main-header .search input::placeholder {
   color: rgba(0, 0, 0, 0.3);
   font-size: 17px;
 }
 /* design for Create button */
-.main-header .click2 button{
+.main-header .click2 button {
   background-color: #fff;
-  border:1.5px solid #cfcccc;
+  border: 1.5px solid #cfcccc;
   border-radius: 5px;
   padding: 0.5rem;
   font-size: 1.2rem;
@@ -48,15 +49,15 @@
   padding: 0.5rem;
   font-size: 21px;
 }
-.main-header .item1 a{
+.main-header .item1 a {
   color: #0e0d0d;
 }
-.main-header .item2{
+.main-header .item2 {
   padding: 0.7rem;
   font-size: 16px;
   background: #0e0d0d;
   border-radius: 10px;
 }
-.main-header .item2 a{
+.main-header .item2 a {
   color: #fff;
 }
